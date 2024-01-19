@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sviluppo di una pagina web-Blog Epicode</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <div id="logo">
+          <img src="logo.svg" alt="logo.epicode" />
+        </div>
+
+        <div id="menù">
+          <h1>Epicode-Il blog dei developers</h1>
+          <h2>HOME</h2>
+          <h2>ARTICOLI</h2>
+          <h2>LAVORA CON NOI</h2>
+        </div>
+      </header>
+
+      <main id="main">
+        <div>
+          <h1>Come creare un template per i post</h1>
+          <span id="rossi">
+            di Mario rossi - <ion-icon name="time"></ion-icon> pubblicato il
+            25-10-2020
+          </span id="">
+        </div>
+
+        <div>
+          <p>
+            La prima cosa da fare e suddividere in blocchi logici la pagina,
+            identidicando <strong id="part">le parti comuni</strong> da
+            applicare a tutte le pagin
+          </p>
+          <p>Le varie aree saranno quindi suddivise in:</p>
+
+          <ul>
+            <li>Contenuti di intestazione del tag header</li>
+            <li>
+              Contenuti centrali variabili del tag main (corpo principale)
+            </li>
+            <li>Contenuti di fine pagina comuni, da inserire nel tag footer</li>
+          </ul>
+        </div>
+
+        <div>
+          <p>
+            Formattazzione del codice il testo dovrà essere formattato per
+            identificare tutte le parti da
+            <strong>selezionare con CSS.</strong> Perciò i passi saranno:
+          </p>
+
+          <ol>
+            <li>
+              Progettare su carta il markup finale, assegnando a ogni specifico
+              testo il tag appropriato
+            </li>
+            <li>
+              Scrivere L'HTML dai tag esterni a quelli interni o dall'alto verso
+              il basso
+            </li>
+            <li>Applicare gli stili css</li>
+          </ol>
+        </div>
+
+        <div>
+          <p>
+            L'applicazione di stili css è cresciuta negli anni fino a
+            raggiungere la diffusione pressochè totale.
+          </p>
+        </div>
+
+        <div id="table-text">
+          <strong>Diffusione del css</strong>
+        </div>
+
+        <table id="table">
+          <tr id="one-table">
+            <th class="table-due">Anno</th>
+            <th class="table-due">% di utilizzo</th>
+            <th class="table-due">Supporto broswer</th>
+          </tr>
+          <tr>
+            <td class="table-due">2000</td>
+            <td class="table-due">20%</td>
+            <td class="table-due">17%</td>
+          </tr>
+          <tr>
+            <td class="table-due">2002</td>
+            <td class="table-due">35%</td>
+            <td class="table-due">22%</td>
+          </tr>
+          <tr>
+            <td class="table-due">2004</td>
+            <td class="table-due">45%</td>
+            <td class="table-due">42%</td>
+          </tr>
+          <tr>
+            <td class="table-due">2008</td>
+            <td class="table-due">51%</td>
+            <td class="table-due">80%</td>
+          </tr>
+          <tr id="final-table">
+            <td class="table-due">2012</td>
+            <td class="table-due">76%</td>
+            <td class="table-due">100%</td>
+          </tr>
+        </table>
+
+        <p>
+          Un test di valutazione potra essere fatto tramite il
+          <a href="https://validator.w3.org/#validate_by_upload"> tool online</a> dedicato
+          allo scopo. Una volta ottimizzato tutto, avremo raggiunto il nostro
+          obbiettivo ed essere stati dei veri developers come loro
+        </p>
+      </main>
+
+      <footer id="footer">
+        <div>
+          <strong>Blog epicode &copy;2023</strong>
+        </div>
+        <div>
+          Testata online di Mario Rossi, registrata con prot. n213/2018-via
+          Luigi Einaudi 2-Milano.P.IVA 00112233 info@epicode.school.com
+          <a href="email">info@epicode.school.com</a>
+        </div>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
